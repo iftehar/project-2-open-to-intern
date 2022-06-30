@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb+srv://iftekhar:Iftekhar123@cluster0.omtag.mongodb.net/group-44-Database?retryWrites=true&w=majority", {useNewUrlParser: true})
+mongoose.connect("mongodb+srv://naveen-developer:rash47rash2021@naveen-developer.eja8d.mongodb.net/group44Database", {useNewUrlParser: true})
     .then(() => console.log('mongodb running'))
     .catch(err => console.log(err))
 
